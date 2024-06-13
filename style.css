@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #FCC4B9;
+}
+#wrapper-div {
+    width: 80%;
+    background-color: #FCC4B9;
+    margin:auto;    
+}
+
+#navi-text-div{
+
+}
+#logo-div {
+    position: relative;
+    top: 70px;
+    padding-left: 3%;
+
+
+}
+
+#nav-div {
+text-align: right;
+padding: 1em 0;
+}
+
+#nav-text-div{
+list-style: none;
+display: inline-block;
+padding: 0;
+line-height: auto;
+font-size: 45px;
+margin-bottom: 50px;
+
+
+}
+#headerbanner-div {
+    width: 100%;
+    overflow: hidden;
+}
+
+#headerbanner-div img{
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+#main-div {
+    width: 100%;
+    min-height: 400px;
+    margin-bottom: 10px;
+    /*background-color: lightgray;*/
+
+}
+#sidebar-div {
+    width: 100%;
+    max-width: 210mm;
+    padding: 10px;
+}
+
+#sidebar-div img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+    float: left;
+}
+
+#bodyarea-div {
+    width: 74%;
+    min-height: 100px;
+    background: #FCC4B9;
+    font-family: arial;
+    float: right;
+    text-align: center;
+    font-size: 49px;
+    line-height: 100px;
+}
+
+#image{
+    margin-left: 5%;
+    margin-right: 5%;
+    float: right;
+}
+
+#footer-div {
+    width: 100%;
+    min-height: 50px;
+    font-family: arial;
+    line-height: 50px ;
+    text-align: center;
+    float: left;
+}
+
+#footerlogo-div {
+    width: 100%;
+    min-height: 50px;
+    padding-left: 2%;
+    font-family: arial;
+    line-height: 50px ;
+    margin-bottom: 10px;
+    float: left;
+    position: relative;
+    top: 0px;
+    right: 2000px;
+    background-color: #FCC4B9;
+}
+
+#footertext-div{
+    width: 100%;
+    min-height: 50px;
+    padding-left: 2%;
+    font-family: arial;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px ;
+    margin-bottom: 10px;
+    float: left;
+    position: relative;
+    top: 0px;
+    right: 1800px;
+    background-color: #FCC4B9;
+}
